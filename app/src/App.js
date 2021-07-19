@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./App.css";
 import API from "./api/api"
 import Search from "./components/search";
 import Results from "./components/results";
