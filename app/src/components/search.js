@@ -2,7 +2,7 @@ import React from "react";
 
 const Search = (data) => {
     return (
-        <form className="m-2">
+        <form className="m-3">
         <div className="input-group">
           <input
             onChange={data.handleChange}
@@ -14,7 +14,7 @@ const Search = (data) => {
             id="search"
             />
           <div className="input-group-append">
-          <button className="btn btn-light">
+          <button className="btn btn-secondary">
             Search
           </button>
           </div>
