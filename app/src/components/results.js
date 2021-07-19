@@ -3,7 +3,7 @@ import React from "react";
 const Results = (data) => {
     return (
         <div className="container-fluid">
-          <table className="table table-hover table-dark">
+          <table className="table table-hover table-dark table-striped">
             <thead>
                 <tr>
                 <th scope="col">First Name</th>
